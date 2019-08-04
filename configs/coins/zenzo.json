@@ -42,8 +42,8 @@
         }
     },
     "blockbook": {
-        "package_name": "blockbook-dogec",
-        "system_user": "blockbook-dogec",
+        "package_name": "blockbook-zenzo",
+        "system_user": "blockbook-zenzo",
         "internal_binding_template": ":{{.Ports.BlockbookInternal}}",
         "public_binding_template": ":{{.Ports.BlockbookPublic}}",
         "explorer_url": "",
