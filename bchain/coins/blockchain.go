@@ -24,6 +24,7 @@ import (
 	"blockbook/bchain/coins/vertcoin"
 	"blockbook/bchain/coins/xzc"
 	"blockbook/bchain/coins/zec"
+	"blockbook/bchain/coins/zenzo"
 	"blockbook/common"
 	"context"
 	"encoding/json"
@@ -76,6 +77,7 @@ func init() {
 	BlockChainFactories["Zcoin"] = xzc.NewZcoinRPC
 	BlockChainFactories["Fujicoin"] = fujicoin.NewFujicoinRPC
 	BlockChainFactories["Flo"] = flo.NewFloRPC
+	BlockChainFactories["Zenzo"] = zenzo.NewZenzORPC
 }
 
 // GetCoinNameFromConfig gets coin name and coin shortcut from config file
